@@ -130,3 +130,4 @@ dmypy.json
 
 #google sheets credentials
 client_secret*
+.DS_Store
