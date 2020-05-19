@@ -92,7 +92,7 @@ record_count
 # In[9]:
 
 
-def get_data(chunk_size=100000, total_rows=1000000):
+def get_data(chunk_size=10000, total_rows=100000):
     start = 0
     results=[]
 
@@ -110,9 +110,9 @@ def get_data(chunk_size=100000, total_rows=1000000):
 # In[8]:
 
 
-orig_results = get_data()
-orig_df = pd.DataFrame(orig_results)
-orig_df.to_csv('/Users/linyu/Documents/Python/data/311_data.csv', index=False)
+# orig_results = get_data()
+# orig_df = pd.DataFrame(orig_results)
+# orig_df.to_csv('/Users/linyu/Documents/Python/data/311_data.csv', index=False)
 
 
 # In[10]:
@@ -184,10 +184,10 @@ newdf = reduce_memory(olddf)
 # In[13]:
 
 
-#need to fix this - categorical blanks are not showing up as blanks
-plt.rc('figure',figsize=(15,4))
-#display(sns.heatmap(olddf.isnull()))
-display(sns.heatmap(newdf.isnull()))
+# #need to fix this - categorical blanks are not showing up as blanks
+# plt.rc('figure',figsize=(15,4))
+# #display(sns.heatmap(olddf.isnull()))
+# display(sns.heatmap(newdf.isnull()))
 
 
 # ## Data Processing
