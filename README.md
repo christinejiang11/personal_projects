@@ -10,7 +10,7 @@ Collection of data science projects for fun and self-learning.
 - [Wikipedia Time Series](wikipedia_time_series/Web_Traffic_Prediction.ipynb): Multiple time series project with the goal of predicting Wikipedia web views from January 2017 to March 2017 for 145,000 different pages. Uses both the statsmodels library ARIMA model and Facebook's Prophet model and compares model results. 
 
 #### Visualization
-- [NYC 311 Calls](nyc_311_dashboard/NYC_311_Calls.ipynb): An interactive dashboard to visualize 311 (non-emergency) call volume in New York City. Serves as a proof-of-concept for how analytics can be used to understand fluctuations in call volume and better prioritize resources and case management across city agencies. To download scripts and run the dashboard yourself, see [here](../NYC_311_Dash/). 
+- [NYC 311 Calls](nyc_311_dashboard/NYC_311_Calls.ipynb): An interactive dashboard to visualize 311 (non-emergency) call volume in New York City. Serves as a proof-of-concept for how analytics can be used to understand fluctuations in call volume and better prioritize resources and case management across city agencies. To download scripts and run the dashboard yourself, see [here](https://github.com/christinejiang11/NYC_311_Dash). 
 
 #### Natural Language Processing
 - [Whispr Sentiment Analysis](whispr_sentiment_analysis/Sentiment_Analysis.ipynb): Simple sentiment analysis for marketing consulting firm - classifies social media posts as positive, neutral, or negative using nltk and pygsheets.
