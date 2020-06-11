@@ -11,6 +11,6 @@ Collection of data science projects for fun and self-learning.
 - [NYC 311 Calls](nyc_311_dashboard/NYC_311_Calls.ipynb): An interactive dashboard to visualize 311 (non-emergency) call volume in New York City. Serves as a proof-of-concept for how analytics can be used to understand fluctuations in call volume and better prioritize resources and case management across the city. 
 
 #### Natural Language Processing
-- [Whispr Sentiment Analysis](whispr_sentiment_analysis/Sentiment_Analysis.ipynb): Simple sentiment analysis project for marketing consulting firm - classifies social media posts as positive, neutral, or negative using nltk and pygsheets.
+- [Whispr Sentiment Analysis](whispr_sentiment_analysis/Sentiment_Analysis.ipynb): Simple sentiment analysis for marketing consulting firm - classifies social media posts as positive, neutral, or negative using nltk and pygsheets.
 
 *Tools: pandas, numpy, matplotlib, seaborn, sklearn, statsmodels, fbprophet, bokeh, nltk, pygsheets*
